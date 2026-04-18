@@ -1,0 +1,17 @@
+{
+  "name": "covington-creek-hoa-backend",
+  "version": "2.0.0",
+  "description": "Covington Creek HOA automation backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "node-cron": "^3.0.3",
+    "pg": "^8.11.3",
+    "twilio": "^4.19.0"
+  }
+}
