@@ -1,17 +1,18 @@
 {
-  "name": "covington-creek-hoa-backend",
-  "version": "2.0.0",
-  "description": "Covington Creek HOA automation backend",
-  "main": "server.js",
+  "name": "covington-creek-hoa-dashboard",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "nodemailer": "^6.9.7",
-    "node-cron": "^3.0.3",
-    "pg": "^8.11.3",
-    "twilio": "^4.19.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0"
   }
 }
